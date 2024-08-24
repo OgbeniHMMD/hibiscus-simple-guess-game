@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess game</title>
+
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./index.js"></script>
+    </head>
+
+    <body>
+        <div class="">
+            <h1 class="title">Simple Guess Game</h1>
+            <p class="caption">Hint: Input should be between 1 to 10</p>
+
+            <form onsubmit="submitForm(event)" class="guess-card center">
+                <input id="userGuess" required class="guess-input-box" type="number" min="1" max="10"
+                    placeholder="1-10">
+                <button type="submit" class="guess-button">SUBMIT GUESS</button>
+            </form>
+        </div>
+    </body>
+
+</html>

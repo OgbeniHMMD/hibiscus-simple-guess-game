@@ -1,0 +1,37 @@
+.title {
+    text-align: center;
+    color: black;
+}
+
+.caption {
+    text-align: center;
+    color: grey;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.guess-card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    overflow: hidden;
+    border: seagreen solid 5px;
+    border-radius: 10px;
+}
+
+.guess-button {
+    width: 100%;
+    background-color: seagreen;
+    color: white;
+    padding: 25px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.guess-input-box {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: 0;
+}
